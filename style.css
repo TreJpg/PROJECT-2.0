@@ -119,3 +119,43 @@ position: absolute;
     color: #000000;
     font-size: 1.0rem;
 }
+
+.main-content {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 1rem;
+}
+
+.main-content p {
+    margin: 0;
+    line-height: 1.6;
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.glen-section,
+.chioopee-section {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.glen-section h2,
+.chioopee-section h2 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    grid-column: 1 / -1;
+}
+
+.glen-section p,
+.chioopee-section p {
+    font-family: "Outfit", sans-serif;
+    line-height: 1.6;
+    font-size: 1rem;
+}
