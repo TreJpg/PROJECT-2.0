@@ -91,12 +91,6 @@ position: absolute;
     text-shadow: 0 2px 8px rgba(0,0,0,0.6);
 }
 
-.hero p {
-    font-size: 20px;
-    margin-top: 10px;
-    max-width: 600px;
-    line-height: 1.5;
-}
 
 
 .pull-quote {
@@ -138,10 +132,7 @@ position: absolute;
 .chioopee-section {
     max-width: 1200px;
     margin: 2rem auto;
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    padding: 1%;
 }
 
 .glen-section h2,
@@ -150,7 +141,6 @@ position: absolute;
     font-weight: 700;
     font-size: 1.75rem;
     margin-bottom: 1rem;
-    grid-column: 1 / -1;
 }
 
 .glen-section p,
@@ -158,4 +148,20 @@ position: absolute;
     font-family: "Outfit", sans-serif;
     line-height: 1.6;
     font-size: 1rem;
+    text-align: center;
 }
+
+.site-footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 3rem 1rem 1rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
