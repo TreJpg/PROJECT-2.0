@@ -132,12 +132,13 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
-.paragraph-image {
-  width: 100%; /* Fixed: Added % symbol */
-  max-width: 800px;
-  height: auto;
-  object-fit: cover;
-  margin-bottom: 5rem;
+.paragraph-image{
+width: 100;
+max-width: 800px;
+height:auto;
+object-fit: cover;
+margin-bottom: 5rem;
+
 }
 
 .glen-section,
@@ -165,10 +166,11 @@ body {
 
 .chioopee-section .paragraph-image {
   width: 100%;
-  max-width: 400px;
+  max-width: 900px; 
   height: auto; 
   object-fit: cover; 
-  margin-bottom: 2rem;
+  margin-top: 5rem; 
+  margin-bottom: 2rem; 
 }
 .site-footer {
   background-color: #008a3b;
