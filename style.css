@@ -1,167 +1,170 @@
-
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-
 .navbar {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 1rem;
-    background: white;
-    z-index: 50;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 2rem;
+  background: white;
+  z-index: 50;
 }
 
 .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 18px;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar__brand img {
-    display: block;
-    height: 90px;
-    width: auto;
+  display: block;
+  height: 69px;
+  width: auto;
 }
 
-
 .navbar a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-family: "Outfit", sans-serif;
-    font-weight: 500;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
 }
 
 .navbar a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 
 .hero {
-    position: relative;
-    height: 80vh;
-    background-color: #f2f2f2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
+  position: relative;
+  height: 95vh;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
 }
 
 .hero h1 {
-    font-size: 48px;
-    margin: 0;
+  font-size: 50px;
+  margin: 0;
 }
 .hero__photo {
-
-position: absolute;
-    inset: 0;              
-    width: 100%;
-    height: 100%;
-    object-fit: cover ;    
-    object-position: center center;
-    z-index: 0;           
-    border-radius: 0;
-    background-color: transparent;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  z-index: 0;
+  border-radius: 0;
+  background-color: transparent;
 }
 
 .hero h1 {
-    font-family: "Special Gothic Expanded One", sans-serif;
-     font-weight: 400;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
   font-style: normal;
-    font-size: 80px;
-    margin: 0;
-    position: relative;
-    z-index: 2;
-    color: white;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+  font-size: 80px;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
-
-
 
 .pull-quote {
-    max-width: 600px;
-    margin: 1rem auto;
-    padding: 1.5rem 1.25rem;
-    text-align: center;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem 1.25rem;
+  text-align: center;
 }
 .pull-quote blockquote {
-    margin: 0;
-    font-size: 1.50rem;
-    color: #222;
+  margin: 0;
+  font-size: 2.1rem;
+  color: #222;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
 .pull-quote__cite {
-    margin-top: 0.5rem;
-    color: #000000;
-    font-size: 1.0rem;
+  margin-top: 0.5rem;
+  color: #000000;
+  font-size: 1rem;
+  color: #008a3b;
+  font-family: "Outfit", sans-serif;
 }
 
 .main-content {
-    max-width: 1000px;
-    margin: 3rem auto;
-    padding: 1rem;
+  max-width: 1200px;
+  margin: 1rem auto;
+  padding: 1rem;
 }
 
 .main-content p {
-    margin: 0;
-    line-height: 1.6;
-    font-family: "Outfit", sans-serif;
-    font-size: 1rem;
-    text-align: center;
+  margin: 0;
+  line-height: 1.6;
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.paragraph-container {
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 .glen-section,
 .chioopee-section {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 1%;
+  max-width: 100%;
+  margin: 0;
+  padding: 1.5rem;
 }
 
 .glen-section h2,
 .chioopee-section h2 {
-    font-family: "Outfit", sans-serif;
-    font-weight: 700;
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 .glen-section p,
 .chioopee-section p {
-    font-family: "Outfit", sans-serif;
-    line-height: 1.6;
-    font-size: 1rem;
-    text-align: center;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .site-footer {
-    background-color: #000000;
-    color: #fff;
-    padding: 3rem 1rem 1rem;
-    margin-top: 4rem;
-    text-align: center;
+  background-color: #008a3b;
+  color: #fff;
+  padding: 3rem 1rem 1rem;
+  margin-top: 4rem;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-
-
