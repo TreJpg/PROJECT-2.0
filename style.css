@@ -3,22 +3,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Skip to main content link for keyboard accessibility */
-.skip-link {
-  position: absolute;
-  top: -40px;
-  left: 0;
-  background: #008a3b;
-  color: white;
-  padding: 8px 16px;
-  text-decoration: none;
-  z-index: 100;
-  font-weight: bold;
-}
-
-.skip-link:focus {
-  top: 0;
-}
 
 .navbar {
   position: fixed;
