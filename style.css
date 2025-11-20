@@ -199,29 +199,68 @@ body {
 /*mobile styled*/ 
 @media (max-width:768px){
 
-
-
+.nav.bar {
+  padding: 5rem 1rem;
+}
 .navbar__brand img {
   height: 60px;
 }
 
 .nav-links{
   flex-wrap: wrap;
-  gap:13px; 
+  gap: 10px; 
 }
 
+.hero { 
+height: 50vh
+padding:2rem 1rem
+}
 
+.hero h1{ 
+font-size 50px;
+max-width 100%;
+line-height: 1rem;
+}
 
+.pull-quote{
+  max-width: 90%;
+  padding: 1rem;
+}
 
+.pull-quote blockquote{
+  font-size: 1.5rem;
+}
 
+.main-content{
+  max-width: 100%;
+padding: 1rem
+}
 
+.main-content p{
+  font-size: 1.2rem;
+}
+.paragraph-container{
+  gap:3rem;
+  grid-template-columns: 1fr;
+  margin: 2rem auto; 
+}
 
+.glen-section,
+.chioopee-section{
+padding: 1rem;
+}
 
+.glen-section h2,
+.chioopee-section h2 { 
+  font-size:2rem;
+}
 
+.glen-section.paragraph-image
+.chioopee-section.paragraph-image{ 
+height: 300px;
 
+}
 
-
-
-
-
+.chioopee-section .paragraph-image {
+   margin-top: 0;
 }
